@@ -6,8 +6,6 @@ function App() {
 
   const [advice, setAdvice] = useState("Loading..");
 
- 
-
   useEffect(() => {
    
     fetchAdvice();
