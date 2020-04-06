@@ -9,6 +9,12 @@
 }
 
 
+.toast{
+  color:black;
+  
+}
+
+
 .App {
   text-align: center;
   height:100vh;
@@ -132,4 +138,21 @@
       width: 80%;
       height: 60%;
   }
+  
+.button {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 130px;
+  width: 160px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+}
 }
